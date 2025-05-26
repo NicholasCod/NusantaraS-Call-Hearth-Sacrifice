@@ -9,12 +9,12 @@ public class NyawaMusuh : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("projectile"))
+        if (other.gameObject.CompareTag("DamageUpLevel1"))
         {
             nyawaCurrent -= 1;
             MusuhMati();
         }
-        else if(other.gameObject.CompareTag("projectileLvl2"))
+        else if(other.gameObject.CompareTag("DamageUpLevel2"))
         {
             nyawaCurrent -= 2;
             MusuhMati();

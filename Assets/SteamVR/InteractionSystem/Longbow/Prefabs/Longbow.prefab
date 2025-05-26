@@ -1949,7 +1949,7 @@ MonoBehaviour:
   nocked: 0
   pulled: 0
   arrowMinVelocity: 3
-  arrowMaxVelocity: 30
+  arrowMaxVelocity: 200
   drawOffset: 0.09
   bowDrawLinearMapping: {fileID: 11461100}
   drawSound: {fileID: 11471204}
